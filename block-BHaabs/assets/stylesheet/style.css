@@ -138,7 +138,7 @@ table {
 body {
   background-color: #282e2b;
   color: #fff;
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
@@ -153,13 +153,45 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 44px;
+  margin-bottom: 24px;
 }
+p {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+section {
+  padding: 32px 0;
+}
+
+/* container */
 .container {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header */
 header {
-  padding: 24px;
+  padding: 24px 0;
+}
+
+/* Date */
+.date {
+  margin-bottom: 32px;
+}
+.date .tag {
+  color: #ff0248;
+}
+.date small {
+  font-family: serif;
+  font-weight: 700;
+  font-size: 22px;
 }
