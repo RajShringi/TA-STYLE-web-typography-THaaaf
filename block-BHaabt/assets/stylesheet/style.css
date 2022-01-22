@@ -317,3 +317,21 @@ h4 {
   background: #fff;
   color: #2d2640;
 }
+
+/* Footer */
+.footer-nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 32px;
+  background: #6f6c75;
+  color: #fff;
+  border-radius: 8px;
+}
+.social-links {
+  text-align: center;
+  padding: 28px 0;
+}
+.social-links a {
+  margin-left: 32px;
+  font-size: 18px;
+}
