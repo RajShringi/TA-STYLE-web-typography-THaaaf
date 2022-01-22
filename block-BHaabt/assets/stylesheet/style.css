@@ -266,3 +266,20 @@ p {
   border-radius: 4px;
   text-transform: uppercase;
 }
+
+/* Features */
+.feature-container {
+  margin: 32px 0;
+}
+.col-1 {
+  width: 30.33%;
+}
+h4 {
+  font-size: 22px;
+  color: #01122d;
+}
+.col-1 p {
+  color: #75727a;
+  padding: 16px 0;
+  text-align: justify;
+}
