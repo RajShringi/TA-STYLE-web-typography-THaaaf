@@ -142,7 +142,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "DM Serif Display", serif;
 }
 img {
@@ -153,8 +154,40 @@ a {
   color: #6f6c75;
 }
 
+/* Flex */
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 24px 0;
+}
+.logo {
+  font-size: 32px;
+  color: #2d2640;
+}
+.nav a {
+  font-size: 18px;
+  margin-left: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.plans {
+  border: 1px solid #6f6c75;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+.plans:hover {
+  background: #6f6c75;
+  color: #2d2640;
 }
