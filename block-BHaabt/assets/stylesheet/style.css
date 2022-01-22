@@ -1,0 +1,337 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;500;600&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+}
+h2 {
+  font-size: 50px;
+  color: #01122d;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #6f6c75;
+}
+p {
+  padding: 24px 0;
+}
+
+/* custom styles */
+.line {
+  width: 190px;
+  height: 2px;
+  background: #c9c8ca;
+  margin-bottom: 32px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 24px 0;
+}
+.logo {
+  font-size: 32px;
+  color: #2d2640;
+}
+.nav a {
+  font-size: 18px;
+  margin-left: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.plans {
+  display: inline-block;
+  border: 1px solid #6f6c75;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+.plans:hover {
+  background: #6f6c75;
+  color: #2d2640;
+}
+
+/* Hero */
+.hero {
+  background: #2d2640;
+  color: #fff;
+}
+.hero-heading {
+  font-size: 60px;
+}
+.hero-article {
+  width: 48%;
+}
+.hero-img {
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+.hero p {
+  font-size: 19px;
+  color: #cdcdce;
+  text-align: justify;
+  word-spacing: -4.4px;
+}
+.hero .plans {
+  color: #fff;
+  border-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hero-container {
+  position: relative;
+  padding: 60px 0;
+}
+
+/* About Section */
+.about-container {
+  padding: 200px 0px 120px 0px;
+}
+.about-img-container {
+  width: 40%;
+}
+.about-article {
+  width: 40.5%;
+}
+.about-article p {
+  color: #75727a;
+  font-size: 20px;
+}
+.know-more {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #75727a;
+  border: 1px solid #75727a;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Features */
+.feature-section {
+  margin-bottom: 32px;
+}
+.feature-container {
+  margin: 32px 0;
+}
+.col-1 {
+  width: 30.33%;
+}
+h4 {
+  font-size: 22px;
+  color: #01122d;
+}
+.col-1 p {
+  color: #75727a;
+  padding: 16px 0;
+  font-size: 18px;
+  word-spacing: -1px;
+}
+.gear {
+  display: inline-block;
+  background: #8ab4f0;
+  padding: 5px 6px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  color: #fff;
+}
+.find-more {
+  background: #2d2640;
+  padding: 64px;
+}
+.find-more h2 {
+  color: #fff;
+}
+.how-we-work {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.how-we-work:hover {
+  background: #fff;
+  color: #2d2640;
+}
+
+/* Footer */
+.footer-nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 32px;
+  background: #6f6c75;
+  color: #fff;
+  border-radius: 8px;
+}
+.social-links {
+  text-align: center;
+  padding: 28px 0;
+}
+.social-links a {
+  margin-left: 32px;
+  font-size: 18px;
+}
