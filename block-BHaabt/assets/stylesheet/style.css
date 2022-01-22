@@ -226,7 +226,8 @@ p {
   right: 0;
 }
 .hero p {
-  font-size: 18px;
+  font-size: 19px;
+  color: #cdcdce;
   text-align: justify;
   word-spacing: -4.4px;
 }
